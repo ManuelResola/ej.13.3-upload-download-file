@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "fd7ae085-1a2f-4ecd-a4b7-da9d940a7168",
+		"name": "Eje.13.3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22793666"
+	},
+	"item": [
+		{
+			"name": "Añadir fichero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"contentType": "application/txt",
+							"type": "file",
+							"src": "/C:/Users/manuel.resola/Downloads/Nuevo documento de texto.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/upload/file",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"upload",
+						"file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
